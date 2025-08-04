@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hexmourne | Java, Python, Full-Stack</title>
+    <title>Hexmourne | Papochka</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -33,7 +33,6 @@
             line-height: 1.6;
         }
 
-        /* Навигация справа */
         .navbar {
             position: fixed;
             top: 20px;
@@ -60,7 +59,6 @@
             transform: translateY(-3px);
         }
 
-        /* Никнейм слева */
         .username {
             position: fixed;
             top: 20px;
@@ -77,7 +75,6 @@
             backdrop-filter: blur(5px);
         }
 
-        /* Частицы снега */
         .snow-container {
             position: fixed;
             top: 0;
@@ -109,7 +106,6 @@
             }
         }
 
-        /* Анимированный фон (Three.js) */
         #particles-js {
             position: fixed;
             width: 100%;
@@ -119,7 +115,6 @@
             z-index: -2;
         }
 
-        /* 3D куб с навыками */
         .cube-container {
             width: 200px;
             height: 200px;
@@ -162,7 +157,6 @@
             to { transform: rotateX(360deg) rotateY(360deg); }
         }
 
-        /* Интерактивный терминал */
         .terminal {
             width: 100%;
             max-width: 600px;
@@ -223,7 +217,6 @@
             50% { opacity: 0; }
         }
 
-        /* Герой секция с параллаксом */
         .hero {
             position: relative;
             height: 100vh;
@@ -265,7 +258,6 @@
             z-index: 1;
         }
 
-        /* Аватара с анимацией и эмоциями */
         .avatar-container {
             position: relative;
             width: 150px;
@@ -409,7 +401,6 @@
             left: 100%;
         }
 
-        /* Соцсети с анимацией */
         .social-links {
             display: flex;
             gap: 15px;
@@ -456,7 +447,6 @@
             left: 100%;
         }
 
-        /* Секции */
         section {
             padding: 100px 0;
             background: var(--darker);
@@ -493,7 +483,6 @@
             box-shadow: var(--glow);
         }
 
-        /* Обо мне */
         .about-content {
             max-width: 800px;
             margin: 0 auto;
@@ -526,7 +515,6 @@
             box-shadow: var(--glow);
         }
 
-        /* Хронология опыта */
         .timeline {
             position: relative;
             max-width: 800px;
@@ -612,7 +600,6 @@
             color: var(--primary);
         }
 
-        /* Соцсети секция */
         .social-section {
             background: var(--black);
         }
@@ -695,7 +682,6 @@
             100% { opacity: 0; transform: rotate(30deg) translate(30%, 30%); }
         }
 
-        /* Футер */
         footer {
             background: var(--black);
             color: var(--primary);
@@ -733,7 +719,6 @@
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
 
-        /* Адаптивность */
         @media (max-width: 768px) {
             h1 {
                 font-size: 2rem;
@@ -829,10 +814,8 @@
     </style>
 </head>
 <body>
-    <!-- Никнейм слева -->
     <div class="username">Hexmourne</div>
 
-    <!-- Навигация справа -->
     <div class="navbar">
         <a href="#home" class="nav-item">Главная</a>
         <a href="#about" class="nav-item">Обо мне</a>
@@ -840,13 +823,10 @@
         <a href="#social" class="nav-item">Соцсети</a>
     </div>
 
-    <!-- Анимированный фон (Three.js) -->
     <div id="particles-js"></div>
 
-    <!-- Снежные частицы -->
     <div class="snow-container" id="snow"></div>
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-bg"></div>
         <div class="hero-overlay"></div>
@@ -857,28 +837,26 @@
                     <div class="avatar-hover"></div>
                 </div>
             </div>
-            <div class="tagline">Full-Stack Разработчик</div>
+            <div class="tagline">Python, Java Разработчик</div>
             <h1>Привет, я <span>Hexmourne</span></h1>
-            <p>Разработчик с опытом в Java, Python. Создаю моды/плагины для майнкрафта, сайты и приложения.</p>
+            <p>Разработчик с опытом в Java, Python. Создаю моды/плагины для майнкрафта, сайты и приложения</p>
             <a href="#about" class="btn">Узнать больше</a>
             
             <div class="social-links">
-                <a href="https://discord.com/users/your_discord_id" class="social-link" target="_blank"><i class="fab fa-discord"></i></a>
-                <a href="https://t.me/your_telegram" class="social-link" target="_blank"><i class="fab fa-telegram"></i></a>
-                <a href="https://youtube.com/your_channel" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="https://tiktok.com/@your_tiktok" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="https://github.com/your_github" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://discord.com/users/hexmourne" class="social-link" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://t.me/Hexm0urne" class="social-link" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.youtube.com/@ImS1lense" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://tiktok.com/@arch1pelagg" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://github.com/ImS1lense" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <h2 class="section-title">Обо мне</h2>
         <div class="about-content">
-            <p>Я Full-Stack разработчик с опытом создания веб-приложений. Специализируюсь на Java (Spring Boot), Python и современных фронтенд-технологиях.</p>
+            <p>Я Python, Java разработчик с опытом создания веб-приложений.Специализируюсь на Java, Python и DLC для игр</p>
             
-            <!-- 3D куб с навыками -->
             <div class="cube-container">
                 <div class="cube">
                     <div class="cube-face front">Java</div>
@@ -886,11 +864,10 @@
                     <div class="cube-face right">Spring</div>
                     <div class="cube-face left">HTML/CSS</div>
                     <div class="cube-face top">JavaScript</div>
-                    <div class="cube-face bottom">Git</div>
+                    <div class="cube-face bottom">C++</div>
                 </div>
             </div>
             
-            <!-- Интерактивный терминал -->
             <div class="terminal">
                 <div class="terminal-header">
                     <div class="terminal-btn red"></div>
@@ -898,7 +875,7 @@
                     <div class="terminal-btn green"></div>
                 </div>
                 <div class="terminal-body" id="terminal">
-                    <div class="terminal-line"><span class="terminal-prompt">$</span> Добро пожаловать в мой терминал!</div>
+                    <div class="terminal-line"><span class="terminal-prompt">$</span> Добро пожаловать в терминал</div>
                     <div class="terminal-line"><span class="terminal-prompt">$</span> Начните вводить "help" для списка команд</div>
                     <div class="terminal-line"><span class="terminal-prompt">$</span> <span id="typed-text"></span><span class="terminal-cursor"></span></div>
                 </div>
@@ -911,101 +888,95 @@
                 <span class="skill">HTML5</span>
                 <span class="skill">CSS3</span>
                 <span class="skill">JavaScript</span>
-                <span class="skill">Git</span>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
     <section id="experience">
         <h2 class="section-title">Мой опыт</h2>
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">2021 - Настоящее время</div>
-                    <h3 class="timeline-title">Full-Stack Разработчик</h3>
-                    <p>Разработка веб-приложений на Java (Spring Boot) и Python (Django). Создание модов и плагинов для Minecraft.</p>
+                    <div class="timeline-date">2024 - Настоящее время</div>
+                    <h3 class="timeline-title">Java,Python Разработчик</h3>
+                    <p>Разработка веб-приложений на React и Python (Django).Создание модов и плагинов для Minecraft.Воспомогательные приложения для сервров Minecraft,реверс-коддинг,создание DLC для игр</p>
                 </div>
             </div>
             
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">2019 - 2021</div>
+                    <div class="timeline-date">2023 - 2024</div>
                     <h3 class="timeline-title">Java Разработчик</h3>
-                    <p>Разработка серверных приложений и API на Java. Работа с базами данных и облачными сервисами.</p>
+                    <p>Разработка плгинов и модов для Minecraft на Java.Полный переход на Java и работа с API</p>
                 </div>
             </div>
             
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">2017 - 2019</div>
+                    <div class="timeline-date">2022 - 2023</div>
                     <h3 class="timeline-title">Начинающий программист</h3>
-                    <p>Изучение основ программирования на Java и Python. Создание первых проектов и модов для Minecraft.</p>
+                    <p>Изучение основ программирования на Java и Python.Создание первых проектов и модов для Minecraft</p>
                 </div>
             </div>
             
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">2015 - 2017</div>
+                    <div class="timeline-date">2021 - 2022</div>
                     <h3 class="timeline-title">Хобби-программирование</h3>
-                    <p>Первые шаги в программировании. Изучение HTML, CSS и основ JavaScript.</p>
+                    <p>Первые шаги в программировании.Изучение основ в Python</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Social Section -->
     <section id="social" class="social-section">
         <h2 class="section-title">Мои соцсети</h2>
         <div class="social-grid">
-            <a href="https://discord.com/users/your_discord_id" class="social-card" target="_blank">
+            <a href="https://discord.com/users/hexmourne" class="social-card" target="_blank">
                 <i class="fab fa-discord"></i>
                 <span>Discord</span>
             </a>
-            <a href="https://t.me/your_telegram" class="social-card" target="_blank">
+            <a href="https://t.me/Hexm0urne" class="social-card" target="_blank">
                 <i class="fab fa-telegram"></i>
                 <span>Telegram</span>
             </a>
-            <a href="https://youtube.com/your_channel" class="social-card" target="_blank">
+            <a href="https://www.youtube.com/@ImS1lense" class="social-card" target="_blank">
                 <i class="fab fa-youtube"></i>
                 <span>YouTube</span>
             </a>
-            <a href="https://tiktok.com/@your_tiktok" class="social-card" target="_blank">
+            <a href="https://tiktok.com/@arch1pelagg" class="social-card" target="_blank">
                 <i class="fab fa-tiktok"></i>
                 <span>TikTok</span>
             </a>
-            <a href="https://github.com/your_github" class="social-card" target="_blank">
+            <a href="https://github.com/ImS1lense" class="social-card" target="_blank">
                 <i class="fab fa-github"></i>
                 <span>GitHub</span>
             </a>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-social">
-            <a href="https://discord.com/users/your_discord_id" target="_blank"><i class="fab fa-discord"></i></a>
-            <a href="https://t.me/your_telegram" target="_blank"><i class="fab fa-telegram"></i></a>
-            <a href="https://youtube.com/your_channel" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://tiktok.com/@your_tiktok" target="_blank"><i class="fab fa-tiktok"></i></a>
-            <a href="https://github.com/your_github" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://discord.com/users/hexmourne" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://t.me/Hexm0urne" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.youtube.com/@ImS1lense" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://tiktok.com/@arch1pelagg" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://github.com/ImS1lense" target="_blank"><i class="fab fa-github"></i></a>
         </div>
-        <p class="copyright">© 2023 Hexmourne. Все права защищены.</p>
+        <p class="copyright">Hexourne отвечает за всё</p>
     </footer>
 
     <script>
-        // Параллакс эффект для фона
         window.addEventListener('scroll', function() {
             const heroBg = document.querySelector('.hero-bg');
             let scrollPosition = window.pageYOffset;
             heroBg.style.transform = `translateZ(-1px) scale(1.2) translateY(${scrollPosition * 0.5}px)`;
         });
 
-        // Создание снежинок
         function createSnow() {
             const snowContainer = document.getElementById('snow');
             const snowflakeCount = 150;
@@ -1034,7 +1005,6 @@
             }
         }
 
-        // Анимированный фон с частицами
         function initParticles() {
             const scene = new THREE.Scene();
             const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -1042,7 +1012,6 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
             document.getElementById('particles-js').appendChild(renderer.domElement);
 
-            // Создаем частицы
             const particlesGeometry = new THREE.BufferGeometry();
             const particlesCount = 1000;
             
@@ -1084,15 +1053,14 @@
             });
         }
 
-        // Интерактивный терминал
         function initTerminal() {
             const terminal = document.getElementById('terminal');
             const typed = new Typed('#typed-text', {
                 strings: [
                     'help^500\n\nДоступные команды:\nabout - Обо мне\nskills - Мои навыки\nprojects - Мои проекты\ncontact - Контакты\n\n$ ',
-                    'skills^500\n\nJava: ██████████ 100%\nPython: ██████████ 100%\nSpring: ██████████ 100%\nHTML/CSS: ██████████ 100%\nJavaScript: ██████████ 100%\nGit: ██████████ 100%\n\n$ ',
+                    'skills^500\n\nJava: █████████ 90%\nPython: ██████████ 100%\nSpring: ███████ 70%\nHTML/CSS: ██████████ 100%\nJavaScript: █████████ 90%\C++: ██████ 60%\n\n$ ',
                     'projects^500\n\n1. Моды для Minecraft\n2. Веб-приложения\n3. Плагины для серверов\n\n$ ',
-                    'contact^500\n\nDiscord: your_discord_id\nTelegram: @your_telegram\nGitHub: github.com/your_github\n\n$ '
+                    'contact^500\n\nDiscord: hexmourne \nTelegram: @Hexm0urne\nGitHub: github.com/ImS1lense\n\n$ '
                 ],
                 typeSpeed: 30,
                 backSpeed: 10,
@@ -1103,7 +1071,6 @@
             terminal.scrollTop = terminal.scrollHeight;
         }
 
-        // Анимация хронологии опыта
         function initTimeline() {
             const timelineItems = document.querySelectorAll('.timeline-item');
             
@@ -1119,10 +1086,9 @@
             }
             
             window.addEventListener('scroll', checkTimeline);
-            checkTimeline(); // Проверить при загрузке
+            checkTimeline();
         }
 
-        // Плавная прокрутка для навигации
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1133,7 +1099,6 @@
             });
         });
 
-        // Инициализация при загрузке
         window.addEventListener('load', function() {
             createSnow();
             initParticles();
